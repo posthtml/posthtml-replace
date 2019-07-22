@@ -1,0 +1,51 @@
+{
+  "name": "posthtml-replace",
+  "description": "PostHTML plugin for replace utility",
+  "version": "1.0.1",
+  "author": "Damon4",
+  "ava": {
+    "verbose": "true"
+  },
+  "bugs": {
+    "url": "https://github.com/posthtml/posthtml-replace/issues"
+  },
+  "dependencies": {
+    "posthtml": "^0.11.3"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "conventional-changelog": "^2.0.1",
+    "conventional-changelog-lint": "^2.1.1",
+    "husky": "^0.14.3",
+    "mversion": "^1.12.0",
+    "snazzy": "^7.1.1",
+    "standard": "^11.0.1"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "https://github.com/posthtml/posthtml-replace",
+  "keywords": [
+    "html",
+    "posthtml",
+    "posthtml-replace"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posthtml/posthtml-replace.git"
+  },
+  "scripts": {
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint",
+    "release-major": "mversion major",
+    "release-minor": "mversion minor",
+    "release-patch": "mversion patch",
+    "test": "npm run lint && ava"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
+}
