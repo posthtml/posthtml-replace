@@ -132,7 +132,7 @@ See [PostHTML Guidelines](https://github.com/posthtml/posthtml/tree/master/docs)
 ### License [MIT](LICENSE)
 
 [npm]: https://img.shields.io/npm/v/posthtml.svg
-[npm-url]: https://npmjs.com/package/posthtml
+[npm-url]: https://npmjs.com/package/posthtml-replace
 
 [deps]: https://david-dm.org/posthtml/posthtml.svg
 [deps-url]: https://david-dm.org/posthtml/posthtml
