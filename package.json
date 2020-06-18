@@ -17,7 +17,7 @@
     "conventional-changelog": "^2.0.1",
     "conventional-changelog-lint": "^2.1.1",
     "husky": "^0.14.3",
-    "mversion": "^1.12.0",
+    "mversion": "^2.0.0",
     "snazzy": "^7.1.1",
     "standard": "^11.0.1"
   },
